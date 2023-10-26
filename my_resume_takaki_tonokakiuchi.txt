@@ -1,0 +1,172 @@
+履歴書
+
+2023/10/19現在
+
+基本情報
+氏名				殿垣内　卓（とのかきうち　たかき）
+現住所				千葉県柏市
+E-mail				sunny.fower.ken@gmail.com
+
+
+
+自己紹介
+
+私は幅広い技術要素と対応度を持つエンジニアで、以下の領域での経験を積んできました。私の技術スキルや経験に関する詳細な情報を以下に示します。
+
+🔹各種技術要素と対応度
+指標の判例：
+
+[言語系]
+
+
+[クラウド環境関連系]
+
+[設計概念・開発手法など]
+
+苦手というかあまり関わったことない領域上げるなら
+機械学習系
+Kubernetes
+AWS以外のクラウド環境（GCP, Azureなど）
+
+
+業界経験（ビジネス企画側にいたわけではないので、割と最近のものだけ挙げておきます）
+
+
+🔹強み/弱み
+上記で判断できないなら、一度短期で試用してもらい、判断していただければ良いと思ってます（その際、お互いにWin-Winとなるように条件を詰めれば良いと思います）。
+
+
+🔹参考：個別の業務経歴
+2022年1月～2023年12月（予定）
+	●業務委託で、某ファッション系スタートアップ企業様で、主にバックエンドエンジニアとしてシステムの機能追加、保守を担当
+	●業務内容：	サーバサイド言語は主にPHP/Laravel、一部python, Go, Node.js
+			フロント言語はreact.js+redux+saga(Nextは使ってない)。最初はフロントエンドも実装していたが、生産性上げるため、途中からほぼバックエンド中心に。
+			RDBはRDS、他にElasticSearchも。
+			インフラはほぼAWS。一部機械学習系や実績分析系でGCPも利用。デプロイツールはgithub actionsとCodePipelineを使い分け。
+			運用ツールとしてSentryやDatadog, Zenhubなども。
+			開発管理はスクラム（管理ツールはNotion）。
+	●使用言語等：	上述通り
+	●サーバー環境・開発環境等：	上述通り
+
+
+2020年11月～2021年12月
+	●業務委託で、オンライン語学学習サービスの提供を主事業とする企業様で、主要ToC向けサービスの改修、および独立性の高い
+	　新規サービスの構築・立ち上げ
+	●業務内容：	上記サービス改修・構築にあたり、以下のような技術要望に応える形で業務委託にて従事。
+			主要ToC向けサービスの改修：
+				サーバサイド言語はPHP/Laravel (DDD + マイクロサービスアーキテクチャ）でのREST API
+				開発
+				フロント言語はnuxt.js + SSRだったが、専属のフロントチームが組成されていたので、フロ
+				ント範囲で私が担当したのは、BFF部分（Express + TypeScript）のみ。
+				DBはAWS Aurora(MySQL)
+				インフラはAWSで普通のALB+ECS+RDS(Aurora)。また、DevOpsチームが多忙だったため
+				fluentdとElasticSearchによるlog router構築を私が担当。
+				コード管理とCI/CDはgitlabとAWS CodePipelineの組み合わせ。
+				開発管理はスクラム（管理ツールはJira）。
+			新規サービスの構築：
+				Sam（API Gateway + lambda(python) + DynamoDB + SNS)による開発。
+				また、上記API向けのフロントとして、vue.js + TypeScript + S3 WebHostingでSPAの開発。
+				インフラは、上記のほか、Route53＋Cloudfrontでドメイン管理とアクセス制御。
+				コード管理とCI/CDはgitlabとAWS CodePipelineの組み合わせ。
+	●使用言語等：	上述通り
+	●サーバー環境・開発環境等：	上述通り
+
+
+2020年1月～9月
+	●業務委託で、求職者と求人企業のマッチングサイトの運営を主事業とする企業様で、同サイトの機能追加プロジェクトに参画
+	●業務内容：	雇用形態が、短期雇用や非正規雇用の求人・求職を主要ターゲットとする、求職者・求人企業のマッチング
+			を仲買するサイトの機能追加案件に参画。
+			サーバサイド言語はPHP（cakePhp、一部Laravel）。
+			フロント言語はvue.js （またはHTML　+　jQuery）で基本的にフロント開発も担当。
+			DBはAWS Aurora(Postgresql)。
+			インフラはAWS ALB+ECS（Fargate、EC2）+RDS(Aurora)で、Dockerコンテナ上でWebサーバ(nginx)
+			実行。
+			CI/CDはTravis/CircleCIとAWS CodePipelineの組み合わせ。
+			LambdaはTypeScript。
+			ソース管理はgithub、gitlab。
+			開発管理はスクラム（管理ツールはJira）。
+	●使用言語等：	PHP、Vue.js / JQuery / CSS、TypeScript、kibanaなど。
+	●サーバー環境・開発環境等：	AWS ECS(Fargate,EC2)、RDS(Aurora )、S3、ElasticSearch、Ubuntu、nginx、rabbitMQ、
+				redisなど。
+
+
+2019年5月～11月（リモート作業案件）
+	●業務委託で一般消費者向けのFX取引管理用サイトの開発に参画
+	●業務内容：	委託元企業様（シンガポール）の、リリース間近だったFX取引管理サイトの開発に参画。
+			サーバサイド言語はPHP（軽量フレームワークのCheetan）。
+			フロント言語はほぼHTML　+　jQuery。基本的にフロント開発も担当。
+			DBはAWS Aurora(MySQL)。
+			インフラはAWS EC2 + RDS(Aurora)で、EC2でWebサーバ(apache)実行。
+			CI/CDの仕組みはなかった。
+			ソース管理はgithub。
+			開発管理は昔ながら（管理ツールも特になく、Skypeでコミュニケーション）。
+	●使用言語等：	PHP、MetaTrader、jQuery / JavaScript / CSS、など。
+	●サーバー環境・開発環境等：	AWS(EC2 / S3 / RDS / VPC / Route53)、CentOS、apache、git、など。
+
+
+2019年5月～6月（リモート作業案件）
+	●業務委託で次の機能を開発。
+	→作成機能：月次営業実績出力機能、BtoCサービス申し込みデータ管理機能、入金データと実績の
+	　自動マッチング・登録機能、商品販売管理機能
+	●業務内容：	主にpython/djangoおよびShellScriptを用いて、実績予測資料の自動集計機能を作成。その後、委託元企業
+			様で導入されている、サービス申し込みサイトに日々保存される申込みデータをダウンロードして、
+			既存顧客とマッチングさせてリスト化するを作成。同時に金融機関から入金データを定期的に取得し、売上
+			データと自動マッチングさせる機能、および入金実績処理を自動で行う機能を作成。並行して、委託元企業
+			の特定の商品に特化した販売管理システムの構築。
+			インフラは社内オンプレミスサーバと一部クラウド上のサーバ。
+	●使用言語等：	python / django、MySQL、jQuery / JavaScript / CSS、ShellScirpt、FTPなど。
+	●サーバー環境・開発環境等：	CentOS、nginx、Docker、git、など。
+
+
+2018年4月～2019年3月
+	●業務委託で基幹システム移行支援、サブシステムの開発、業務支援ツールの作成等
+	●業務内容：	業務委託元会社様の2018年7月の基幹システムの全面移行について、4月〜8月まで既存システムのデータ
+			調査および移行仕様の作成、検証を実施。また、移行のために、既存システム内のデータ修正・整理、
+			およびマスタデータ等の変換作業の実施。
+			移行後は、最初の１ヶ月は移行後システムで作成されたトランザクションデータの確認をすると共に、
+			移行後システムでは足りない機能を業務支援ツールとして主にWebアプリ（php）、Excelツールとして
+			提供。
+			その後9月から翌年3月中旬までは、先行してシステム移行していた系列会社においても、不足機能を
+			主にWebアプリ（php）として提供。その合間に、商品展示会イベント用ツールもWebアプリ（php）と
+			して提供。
+			インフラはOSはWindows系、DBはSQLServer、Oracle、MySQLで、いずれもオンプレミス型。
+	●使用言語等：	Php / CakePhp、jQuery / JavaScript / Bootstrap4 / CSS、PowerShell、Oracle SP / SQL、ExcelVBA
+	●サーバー環境等：	Oracle / MySQL / SQLserver、WindowsServer、Apache
+
+
+2011年4月～2018年3月
+	●事業会社での情報システム部員として、基幹システム等の管理、追加システム・経年ハードウェアの交換等の調達、営業データ・
+	　経営データ等の抽出および会議資料の作成、社員への簡単なツール等の提供（それ以外に、当該事業会社の事業に関わる定型
+	　業務・事務業務）
+	●業務内容：	エンジニアとして行なっていたことは、主に以下。
+			・基幹システム内の取引実績データを抽出加工し、毎月の定例営業会議資料の作成（SQLServer）
+			・年間予算／計画作成のための、年間売上／原価予測シミュレーションプログラムの作成（SQLServer）
+			・オフィシャルHPに付加するいくつかのBtoCサービスのバックエンドプログラムの開発（PowerShell
+			/FTP、Php/CakePhp、SQLServer）
+			・営業業務支援のためのExcel／Accessツール等の開発（VBA）
+			・経年オンプレミスサーバの仮想化サーバへの移行（ベンダーへの指示と発注のみ）
+			・その他、システムトラブル対応、およびユーザサポート
+	●使用言語等：	Php / CakePhp、jQuery / JavaScript / Bootstrap4 / CSS、PowerShell、SQLServer / StoredProcedure / 	  	  　　　　　　			SQL、ExcelVBA
+	●サーバー環境等：	SQLserver、WindowsServer、Apache, Kintone
+
+
+2009年10月～2011年3月
+	●業務委託で製薬会社の汎用機上のCOBOLプログラムのオープン系サーバへの移行
+	●業務内容：	常駐先の製薬会社のシステム部門で残課題となっていた汎用機上のCOBOLプログラムをオープン系サーバ
+			に移行しました。機能としては、
+			・卸先の売上実績に基づく割引計算システム（バックエンドのバッチ）
+			・キャンペーン企画とその内容に基づく割引計算システム（バックエンドのバッチとGUI）
+			・それらに使うマスタ管理システム（バックエンドのバッチとGUI）
+			等でした。
+	●使用言語等：	Java  / JSP / 独自フレームワーク、jQuery / JavaScript / CSS、Oracle SP / SQL、ExcelVBA、
+			MS-DOS、JP1
+	●サーバー環境等：	Oracle、WindowsServer、Apache
+
+
+2009年9月以前
+	●ASP /IIS、VB、JavaなどでのWebシステム開発・クラサバシステム開発（製薬業界、中古車業界、メーカーなど多数）。
+	●使用言語等：	Java  / JSP / 独自フレームワーク、jQuery / JavaScript / CSS/HTML、ASP / VB / VBScript / IIS / Dos , 
+			StoredProcedure / SQL、Asteria (ETL) 
+			MS-DOS、JP1
+	●サーバー環境等：	Oracle / DB2 / SQLserver / MySQL、WindowsServer、Apache / IIS , Domino, Cosminexus
+
